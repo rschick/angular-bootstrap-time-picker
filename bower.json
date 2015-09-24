@@ -1,0 +1,22 @@
+{
+  "name": "angular-bootstrap-time-picker",
+  "version": "0.0.0",
+  "authors": [
+    "Russell Schick <Russell.Schick@d2l.com>"
+  ],
+  "main": "src/index.js",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.10.6"
+  }
+}
