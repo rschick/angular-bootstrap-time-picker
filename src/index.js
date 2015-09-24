@@ -33,7 +33,7 @@ directive('ngBootstrapTimePicker', function() {
 				if (oldValue === newValue) {
 					return;
 				}
-				if (newValue > 12 || newValue < 1) {
+				if (isNaN(newValue) || newValue > 12 || newValue < 1) {
 					scope.hourInvalid = true;
 					return;
 				}
@@ -53,7 +53,7 @@ directive('ngBootstrapTimePicker', function() {
 				if (oldValue === newValue) {
 					return;
 				}
-				if (newValue > 59 || newValue < 0) {
+				if (isNaN(newValue) || newValue > 59 || newValue < 0) {
 					scope.minuteInvalid = true;
 					return;
 				}
